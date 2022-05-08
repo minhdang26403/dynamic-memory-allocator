@@ -8,4 +8,4 @@ These implementations of malloc also impose a minimum block size of 4 words for 
 
 # Things to improve
 
-Implement the memory allocator using a segregated free list. This is a more sophisticated version of explicit free list since it will keep track many explicit free lists with different size classes.
+Implement the memory allocator using a segregated free list. This is a more sophisticated version of the explicit free list one since it will keep track of many explicit free lists with different size classes. This design of the dynamic memory allocator achieves both high throughput and memory utilization.
